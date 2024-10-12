@@ -1,0 +1,103 @@
+body {
+  font-family: "Jacques Francois Shadow", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.image-tl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.img-tl {
+  width: 700px;
+  height: 550px;
+  border-radius: 100px;
+}
+
+p {
+  font-size: 14px;
+  font-family: "MedievalSharp", cursive;
+}
+
+.container {
+  height: 565px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 100px;
+}
+
+.text-content {
+  height: 490px;
+  background-color: #d9d9d9;
+  padding: 30px;
+  border-radius: 30px;
+  border: 2px solid black;
+  width: 500px;
+}
+
+.footer {
+  display: flex;
+  background-color: #171717;
+  height: 77px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;            
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.65px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "MedievalSharp", cursive;
+}
+
+
+.a-button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary{
+  text-align: center;
+  width: 220px;
+  height: 40px;
+  background-color: #9c9c9c;
+  font-size: 24px;
+  border-radius: 20px;
+  font-family: "Jacques Francois", serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon{
+    height: 53px;
+    width: 53px;
+}
+
+h3{
+    margin-left: 30px;
+    font-family: "Jacques Francois", serif;
+    color: white;
+}
+
+.imgs{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
