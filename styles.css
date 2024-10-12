@@ -4,6 +4,12 @@ body {
   padding: 0;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .image-tl {
   display: flex;
   justify-content: center;
@@ -44,7 +50,7 @@ p {
 .footer {
   display: flex;
   background-color: #171717;
-  height: 77px;
+  height: 75px;
   width: 100%;
   justify-content: space-between;
   align-items: center;            
